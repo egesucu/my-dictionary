@@ -16,13 +16,13 @@ class wordViewController: UIViewController {
     @IBOutlet weak var word: UILabel!
     @IBOutlet weak var germanWord: UILabel!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         word.text = selectedWord
         germanWord.text = selectedGermanWord
     }
-
+    
     
 }

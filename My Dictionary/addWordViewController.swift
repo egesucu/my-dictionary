@@ -15,16 +15,16 @@ class addWordViewController: UIViewController {
     @IBOutlet weak var germanWordTextField: UITextField!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
-
+    
     @IBAction func speichernButton(_ sender: Any) {
         let context = appDelegate.persistentContainer.viewContext
         let entity = NSEntityDescription.entity(forEntityName: "WordList", in: context)
@@ -43,5 +43,5 @@ class addWordViewController: UIViewController {
         navigationController?.popToRootViewController(animated: true)
     }
     
-
+    
 }

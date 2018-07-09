@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 class homeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     @IBOutlet weak var tableView: UITableView!
     private var wordList = [String]()
     private var germanWordList = [String]()
@@ -30,13 +30,13 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
         fetchData()
         tableView.reloadData()
     }
-  
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedWord = wordList[indexPath.row]
         selectedGermanWord = germanWordList[indexPath.row]
         
-       performSegue(withIdentifier: "seeDetail", sender: nil)
+        performSegue(withIdentifier: "seeDetail", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -49,7 +49,7 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return wordList.count
     }
@@ -83,12 +83,12 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
-   
     
     
-
-   
-
-
+    
+    
+    
+    
+    
 }
 

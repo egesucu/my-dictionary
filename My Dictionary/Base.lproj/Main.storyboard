@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Wörter-->
+        <!--WordList-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="homeViewController" customModule="Meine_Erinnerung" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="homeViewController" customModule="My_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Wörter" id="cGi-zE-Pim">
+                    <navigationItem key="navigationItem" title="WordList" id="cGi-zE-Pim">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="4kX-Qz-XqV">
                             <connections>
                                 <segue destination="Fwk-3g-M9s" kind="show" identifier="addWord" id="JTI-Em-3ok"/>
@@ -74,7 +74,7 @@
         <!--Word View Controller-->
         <scene sceneID="vum-qo-4zH">
             <objects>
-                <viewController id="h9F-8h-lFf" customClass="wordViewController" customModule="Meine_Erinnerung" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="h9F-8h-lFf" customClass="wordViewController" customModule="My_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PhP-wA-mEd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,7 @@
         <!--Add Word View Controller-->
         <scene sceneID="AbF-kB-ee5">
             <objects>
-                <viewController id="Fwk-3g-M9s" customClass="addWordViewController" customModule="Meine_Erinnerung" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fwk-3g-M9s" customClass="addWordViewController" customModule="My_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BcG-Af-WFQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,17 +124,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="German" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-U5-eOp">
-                                <rect key="frame" x="151" y="298" width="73" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="German Word" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-U5-eOp">
+                                <rect key="frame" x="132.5" y="298" width="110.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNE-Zr-KAC">
-                                <rect key="frame" x="154" y="404" width="68" height="30"/>
-                                <color key="backgroundColor" red="0.54894221267634702" green="1" blue="0.97227734997419613" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="speichern">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="145.5" y="404" width="85" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.39383902328108233" blue="0.23951471736799068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">

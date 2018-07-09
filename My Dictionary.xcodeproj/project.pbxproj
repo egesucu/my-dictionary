@@ -10,7 +10,7 @@
 		9D5A4EA820EF49AA007EEEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */; };
 		9D5A4EAA20EF49AA007EEEB5 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EA920EF49AA007EEEB5 /* homeViewController.swift */; };
 		9D5A4EAD20EF49AA007EEEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EAB20EF49AA007EEEB5 /* Main.storyboard */; };
-		9D5A4EB020EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EAE20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodeld */; };
+		9D5A4EB020EF49AA007EEEB5 /* My Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EAE20EF49AA007EEEB5 /* My Dictionary.xcdatamodeld */; };
 		9D5A4EB220EF49AC007EEEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EB120EF49AC007EEEB5 /* Assets.xcassets */; };
 		9D5A4EB520EF49AC007EEEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EB320EF49AC007EEEB5 /* LaunchScreen.storyboard */; };
 		9D5A4EBD20EF4AFE007EEEB5 /* addWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EBC20EF4AFE007EEEB5 /* addWordViewController.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D5A4EA420EF49AA007EEEB5 /* Meine Erinnerung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meine Erinnerung.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5A4EA420EF49AA007EEEB5 /* My Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D5A4EA920EF49AA007EEEB5 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		9D5A4EAC20EF49AA007EEEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		9D5A4E9B20EF49AA007EEEB5 = {
 			isa = PBXGroup;
 			children = (
-				9D5A4EA620EF49AA007EEEB5 /* Meine Erinnerung */,
+				9D5A4EA620EF49AA007EEEB5 /* My Dictionary */,
 				9D5A4EA520EF49AA007EEEB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		9D5A4EA520EF49AA007EEEB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D5A4EA420EF49AA007EEEB5 /* Meine Erinnerung.app */,
+				9D5A4EA420EF49AA007EEEB5 /* My Dictionary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D5A4EA620EF49AA007EEEB5 /* Meine Erinnerung */ = {
+		9D5A4EA620EF49AA007EEEB5 /* My Dictionary */ = {
 			isa = PBXGroup;
 			children = (
 				9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */,
@@ -68,17 +68,17 @@
 				9D5A4EB120EF49AC007EEEB5 /* Assets.xcassets */,
 				9D5A4EB320EF49AC007EEEB5 /* LaunchScreen.storyboard */,
 				9D5A4EB620EF49AC007EEEB5 /* Info.plist */,
-				9D5A4EAE20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodeld */,
+				9D5A4EAE20EF49AA007EEEB5 /* My Dictionary.xcdatamodeld */,
 			);
-			path = "Meine Erinnerung";
+			path = "My Dictionary";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D5A4EA320EF49AA007EEEB5 /* Meine Erinnerung */ = {
+		9D5A4EA320EF49AA007EEEB5 /* My Dictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D5A4EB920EF49AC007EEEB5 /* Build configuration list for PBXNativeTarget "Meine Erinnerung" */;
+			buildConfigurationList = 9D5A4EB920EF49AC007EEEB5 /* Build configuration list for PBXNativeTarget "My Dictionary" */;
 			buildPhases = (
 				9D5A4EA020EF49AA007EEEB5 /* Sources */,
 				9D5A4EA120EF49AA007EEEB5 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Meine Erinnerung";
+			name = "My Dictionary";
 			productName = "Meine Erinnerung";
-			productReference = 9D5A4EA420EF49AA007EEEB5 /* Meine Erinnerung.app */;
+			productReference = 9D5A4EA420EF49AA007EEEB5 /* My Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D5A4E9F20EF49AA007EEEB5 /* Build configuration list for PBXProject "Meine Erinnerung" */;
+			buildConfigurationList = 9D5A4E9F20EF49AA007EEEB5 /* Build configuration list for PBXProject "My Dictionary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D5A4EA320EF49AA007EEEB5 /* Meine Erinnerung */,
+				9D5A4EA320EF49AA007EEEB5 /* My Dictionary */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5A4EBF20EF4B08007EEEB5 /* wordViewController.swift in Sources */,
-				9D5A4EB020EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodeld in Sources */,
+				9D5A4EB020EF49AA007EEEB5 /* My Dictionary.xcdatamodeld in Sources */,
 				9D5A4EAA20EF49AA007EEEB5 /* homeViewController.swift in Sources */,
 				9D5A4EBD20EF4AFE007EEEB5 /* addWordViewController.swift in Sources */,
 				9D5A4EA820EF49AA007EEEB5 /* AppDelegate.swift in Sources */,
@@ -300,7 +300,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.Meine-Erinnerung";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.My-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -319,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.Meine-Erinnerung";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.My-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D5A4E9F20EF49AA007EEEB5 /* Build configuration list for PBXProject "Meine Erinnerung" */ = {
+		9D5A4E9F20EF49AA007EEEB5 /* Build configuration list for PBXProject "My Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D5A4EB720EF49AC007EEEB5 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D5A4EB920EF49AC007EEEB5 /* Build configuration list for PBXNativeTarget "Meine Erinnerung" */ = {
+		9D5A4EB920EF49AC007EEEB5 /* Build configuration list for PBXNativeTarget "My Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D5A4EBA20EF49AC007EEEB5 /* Debug */,
@@ -350,13 +350,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9D5A4EAE20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodeld */ = {
+		9D5A4EAE20EF49AA007EEEB5 /* My Dictionary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				9D5A4EAF20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodel */,
 			);
 			currentVersion = 9D5A4EAF20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodel */;
-			path = Meine_Erinnerung.xcdatamodeld;
+			path = "My Dictionary.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
