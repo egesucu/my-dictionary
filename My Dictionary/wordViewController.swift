@@ -8,7 +8,7 @@
 
 import UIKit
 
-class wordViewController: UIViewController {
+class WordViewController: UIViewController {
     
     var selectedWord = ""
     var selectedGermanWord = ""

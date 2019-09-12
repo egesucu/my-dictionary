@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9D5A4EA820EF49AA007EEEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */; };
-		9D5A4EAA20EF49AA007EEEB5 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EA920EF49AA007EEEB5 /* homeViewController.swift */; };
+		9D5A4EAA20EF49AA007EEEB5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EA920EF49AA007EEEB5 /* HomeViewController.swift */; };
 		9D5A4EAD20EF49AA007EEEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EAB20EF49AA007EEEB5 /* Main.storyboard */; };
 		9D5A4EB020EF49AA007EEEB5 /* My Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EAE20EF49AA007EEEB5 /* My Dictionary.xcdatamodeld */; };
 		9D5A4EB220EF49AC007EEEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EB120EF49AC007EEEB5 /* Assets.xcassets */; };
 		9D5A4EB520EF49AC007EEEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A4EB320EF49AC007EEEB5 /* LaunchScreen.storyboard */; };
-		9D5A4EBD20EF4AFE007EEEB5 /* addWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EBC20EF4AFE007EEEB5 /* addWordViewController.swift */; };
-		9D5A4EBF20EF4B08007EEEB5 /* wordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EBE20EF4B08007EEEB5 /* wordViewController.swift */; };
+		9D5A4EBD20EF4AFE007EEEB5 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EBC20EF4AFE007EEEB5 /* AddWordViewController.swift */; };
+		9D5A4EBF20EF4B08007EEEB5 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4EBE20EF4B08007EEEB5 /* WordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D5A4EA420EF49AA007EEEB5 /* My Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D5A4EA920EF49AA007EEEB5 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9D5A4EA920EF49AA007EEEB5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9D5A4EAC20EF49AA007EEEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D5A4EAF20EF49AA007EEEB5 /* Meine_Erinnerung.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meine_Erinnerung.xcdatamodel; sourceTree = "<group>"; };
 		9D5A4EB120EF49AC007EEEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5A4EB420EF49AC007EEEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5A4EB620EF49AC007EEEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5A4EBC20EF4AFE007EEEB5 /* addWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addWordViewController.swift; sourceTree = "<group>"; };
-		9D5A4EBE20EF4B08007EEEB5 /* wordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordViewController.swift; sourceTree = "<group>"; };
+		9D5A4EBC20EF4AFE007EEEB5 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		9D5A4EBE20EF4B08007EEEB5 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				9D5A4EA720EF49AA007EEEB5 /* AppDelegate.swift */,
-				9D5A4EA920EF49AA007EEEB5 /* homeViewController.swift */,
-				9D5A4EBC20EF4AFE007EEEB5 /* addWordViewController.swift */,
-				9D5A4EBE20EF4B08007EEEB5 /* wordViewController.swift */,
+				9D5A4EA920EF49AA007EEEB5 /* HomeViewController.swift */,
+				9D5A4EBC20EF4AFE007EEEB5 /* AddWordViewController.swift */,
+				9D5A4EBE20EF4B08007EEEB5 /* WordViewController.swift */,
 				9D5A4EAB20EF49AA007EEEB5 /* Main.storyboard */,
 				9D5A4EB120EF49AC007EEEB5 /* Assets.xcassets */,
 				9D5A4EB320EF49AC007EEEB5 /* LaunchScreen.storyboard */,
@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					9D5A4EA320EF49AA007EEEB5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -144,10 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D5A4EBF20EF4B08007EEEB5 /* wordViewController.swift in Sources */,
+				9D5A4EBF20EF4B08007EEEB5 /* WordViewController.swift in Sources */,
 				9D5A4EB020EF49AA007EEEB5 /* My Dictionary.xcdatamodeld in Sources */,
-				9D5A4EAA20EF49AA007EEEB5 /* homeViewController.swift in Sources */,
-				9D5A4EBD20EF4AFE007EEEB5 /* addWordViewController.swift in Sources */,
+				9D5A4EAA20EF49AA007EEEB5 /* HomeViewController.swift in Sources */,
+				9D5A4EBD20EF4AFE007EEEB5 /* AddWordViewController.swift in Sources */,
 				9D5A4EA820EF49AA007EEEB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.My-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -321,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.My-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

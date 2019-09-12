@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class addWordViewController: UIViewController {
+class AddWordViewController: UIViewController {
     
     @IBOutlet weak var wordTextField: UITextField!
     @IBOutlet weak var germanWordTextField: UITextField!
